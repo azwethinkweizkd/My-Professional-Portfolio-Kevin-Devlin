@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: rgb(25, 151, 151);
+  color: ivory;
+}
+
+h1 {
+  font-size: 250%;
+  font-family: "Cabin", sans-serif;
+}
+
+h1::after {
+  font-family: "Cabin", sans-serif;
+  font-weight: bolder;
+  content: "Devlin";
+  color: black;
+  margin-left: 5px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
+}
+
+nav a {
+  color: ivory;
+  font-weight: bold;
+  text-decoration: none;
+}
