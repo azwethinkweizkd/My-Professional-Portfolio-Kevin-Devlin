@@ -1,8 +1,13 @@
 * {
   font-family: "Cabin", sans-serif;
-  font-size: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
+body {
+  background-color: ivory;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -34,17 +39,28 @@ nav ul {
 
 nav a {
   color: ivory;
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: none;
 }
 
 .background {
-  height: 300px;
+  height: 250px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url(https://images.unsplash.com/photo-1486551937199-baf066858de7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=846&q=80);
   background-size: cover;
   background-position: center;
 }
-aside {
+main {
+  display: inline-block;
+  width: 70%;
+  padding: 30px;
+}
+.titles {
+  padding: 50px;
+  clear: both;
+  float: left;
+  width: 30%;
+  height: 100%;
+  font-family: "Cabin", sans-serif;
 }
