@@ -13,6 +13,7 @@ body {
   padding: 0;
   line-height: 1.5;
   background-color: #33393f;
+  font-family: "Cabin", sans-serif;
 }
 
 .container {
@@ -57,28 +58,49 @@ img {
   opacity: 1;
   /* filter: saturate(0); */
   margin: 0;
+  padding: 0;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
-  margin: 0;
-  padding: 0;
 }
 
-nav a {
-  display: flex;
-  justify-content: space-evenly;
-  align-self: flex-end;
-  color: ivory;
-  font-weight: bolder;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.5rem;
-  font-family: "Kanit", sans-serif;
+  font-size: 2.5rem;
+}
+
+li a:hover {
+  background-color: hotpink;
+  color: black;
 }
 
 main {
   display: inline-block;
   width: 100%;
   padding: 30px;
+}
+
+.aboutmetitle,
+.worktitle,
+.contacttitle {
+  font-size: 7rem;
+  color: rgb(182, 55, 182);
+  border-right: 5px solid rgb(182, 55, 182);
+  margin: auto;
 }
