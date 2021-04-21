@@ -96,11 +96,39 @@ main {
   padding: 30px;
 }
 
-.aboutmetitle,
-.worktitle,
-.contacttitle {
+.contentcontainer {
+  display: flex;
+  width: 100%;
+}
+
+.title {
   font-size: 7rem;
   color: rgb(182, 55, 182);
   border-right: 5px solid rgb(182, 55, 182);
-  margin: auto;
+  justify-self: flex-start;
+  text-align: right;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+  width: 25%;
+}
+
+section p {
+  font-size: 1.75rem;
+  color: ivory;
+  padding-left: 5rem;
+  text-align: center;
+  width: auto;
+}
+
+.contact a {
+  font-size: 3.5rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 75%;
 }
