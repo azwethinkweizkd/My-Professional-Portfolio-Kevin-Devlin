@@ -116,18 +116,27 @@ main {
 .content {
   width: 75%;
   display: flex;
+  flex-wrap: wrap;
+  padding-left: 5rem;
 }
-
+.cardwrapper {
+  display: flex;
+  flex-direction: row;
+}
 section p {
   font-size: 1.75rem;
   color: ivory;
-  padding-left: 5rem;
+  padding-left: 2rem;
   text-align: center;
   width: auto;
-  margin-top: 0rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
-
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  align-items: center;
+}
 .contact a {
   font-size: 3rem;
   color: ivory;
@@ -138,6 +147,14 @@ section p {
 
 .card-container {
   position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.25rem;
+  margin-right: 1.5rem;
+}
+
+.cardwrapper > .card-container {
+  width: 50%;
 }
 
 .card-header {
